@@ -3,12 +3,12 @@ var router = express.Router();
 
 var html = `
   <h1>Welcome To The Mentor 👨🏻‍🏫 & Student 👨🏻‍🎓 Assigning With The Database  </h1>
-  <p>Create a Mentor : POST - "/mentor"</p>
-  <p>Create a Student : POST - "/student"</p>
-  <p>Assign a student to a mentor : PUT - "/mentor/:mentorId/student/:studentId"</p>
-  <p>Assign/change a mentor for a student : PUT - "/student/:studentId/mentor/:mentorId"</p>
-  <p>Show all students for a mentor : GET - "/mentor/:mentorId/student"</p>
-  <p>Show the previously assigned mentor for a student : GET - "/student/:studentId/mentor"</p>
+  <p>Create a Mentor : POST - "/mentor" *name email required*</p>
+  <p>Create a Student : POST - "/student" *name age required*</p>
+  <p>Assign a Student For A Mentor : PUT - "/mentor/:mentorId/student/:studentId"</p>
+  <p>Assign Or Change The Mentor for a Student : PUT - "/student/:studentId/mentor/:mentorId"</p>
+  <p>Show all Students for a Mentor : GET - "/mentor/:mentorId/student"</p>
+  <p>Show the previously assigned Mentor for a Student : GET - "/student/:studentId/mentor"</p>
 `;
 
 /* GET home page. */
