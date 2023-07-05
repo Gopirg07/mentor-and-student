@@ -2,7 +2,7 @@ var express = require("express");
 var router = express.Router();
 
 var html = `
-<div class="main-box">
+<div class="main-box" style="text-align:center">
   <h1>  Mentor 👨🏻‍🏫 & Student 👨🏻‍🎓 Assigning With The Database  </h1>
   <p>To Create a Mentor : POST - "/mentor" *name email required*</p>
   <p>To Create a Student : POST - "/student" *name age required*</p>
